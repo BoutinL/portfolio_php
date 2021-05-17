@@ -28,4 +28,12 @@
   width: 100%;
   height: auto;
 }
-  
+
+.card-center {
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+  border:1px solid rgb(255, 255, 255);
+  width : 400px;
+  width: 22rem;
+}

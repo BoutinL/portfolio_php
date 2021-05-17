@@ -13,11 +13,12 @@
 
   </head>
   <body>
+  <body>
     <header id="header">
-      <nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark ">
+      <nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
           
-          <a class="navbar-brand text-white" href="index.php    "><b>Accueil</b></a>
+          <a class="navbar-brand text-white" href="index.html"><b>Accueil</b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -27,11 +28,11 @@
                 <a class="nav-link active text-white" aria-current="page" href="about.php">A propos</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="login.php">Se connecter</a>
+                <a class="nav-link active text-white" aria-current="page" href="register.php">Créer un compte</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="register.php">Créer un compte</a>
-              </li> 
+                <a class="nav-link active text-white" aria-current="page"  href="login.php">Se connecter</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -40,24 +41,24 @@
 
   <div class="text-white bg-dark text-center d-flex flex-column align-items-center w-100 p-3 mx-auto">
     <br/>
-    <h1><font face="Arial"><b>BOUTIN Loïc</b></font></h1> 
+    <h1><font face="cursive"><b>BOUTIN Loïc</b></h1> 
     <h2>Bienvenue sur mon Portfolio</h2>
     <br/> 
   </div>
   
   <br/>
   <br/>
-  <h1><div class="text-center"><b>Mes Projets</b></div></h1>
+  <h1><div class="text-center"><b>Mes Projets</b></div></h1></font>
   <br/>
   <br/>
-
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+  
+  <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
-      <div class="card" style="width: 22rem;">
+      <div class="card card-center">
         <img src="https://image.flaticon.com/icons/png/512/36/36049.png" alt="portfolio" class="responsive">
         <div class="card-body">
           <h5 class="card-title text-center"><b>Curriculum Vitae</b></h5>
-          <p class="card-text text-center">Mon CV en HTML/CSS</p>
+          <p class="card-text text-center"><i>Mon CV en HTML/CSS</i></p>
           <a href="https://nachtv.github.io/cv-html-css/" class="btn btn-secondary center2">Voir le projet</a>
           <br/>
           <a href="https://github.com/NachtV/cv-html-css.git" class="btn btn-secondary center2">Code source</a>
@@ -66,11 +67,11 @@
     </div>
     <br/>
     <div class="col">
-      <div class="card" style="width: 22rem;">
+      <div class="card card-center">
         <img src="https://cdn.icon-icons.com/icons2/38/PNG/512/openfolder_4896.png" alt="portfolio" class="responsive">
         <div class="card-body">
           <h5 class="card-title text-center"><b>Portfolio</b></h5>
-          <p class="card-text text-center">Portfolio fait en groupe</p>
+          <p class="card-text text-center"><i>Portfolio fait en groupe</i></p>
           <a href="https://nachtv.github.io/Portfolio/" class="btn btn-secondary center2">Voir le projet</a>
           <br/>
           <a href="https://github.com/NachtV/Portfolio.git" class="btn btn-secondary center2">Code source</a>
@@ -79,11 +80,11 @@
     </div>
     <br/>
     <div class="col">
-      <div class="card" style="width: 22rem;">
+      <div class="card card-center">
         <img src="https://clipground.com/images/coming-soon-clipart-14.jpg" alt="A venir" class="responsive">
         <div class="card-body">
           <h5 class="card-title text-center"><b>Projet à venir</b></h5>
-          <p class="card-text text-center">En cours...</p>
+          <p class="card-text text-center"><i>En cours...</i></p>
           <a href="#" class="btn btn-secondary center2 disabled">Voir le projet</a>
           <br/>
           <a href="#" class="btn btn-secondary center2 disabled">Code source</a>
@@ -116,7 +117,6 @@
       </div>
       <br>
     </footer>
-    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
