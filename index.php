@@ -27,12 +27,11 @@
                 <a class="nav-link active text-white" aria-current="page" href="about.php">A propos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="register.php">Créer un compte</a>
-              </li>
-              <li class="nav-item">
                   <a class="nav-link active text-white" aria-current="page" href="login.php">Se connecter</a>
               </li>
-              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="register.php">Créer un compte</a>
+              </li> 
             </ul>
           </div>
         </div>

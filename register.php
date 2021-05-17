@@ -81,10 +81,6 @@ if (isset($_POST) AND !empty($_POST)) {
                   Créer un compte
                 </button>
               </li>
-              <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="login.php">Se connecter</a>
-              </li>
-              </li>
             </ul>
           </div>
         </div>

@@ -44,7 +44,6 @@ if (isset($_POST) && !empty($_POST)) {
                   Se connecter
                 </button>
               </li>
-              </li>
             </ul>
           </div>
         </div>
