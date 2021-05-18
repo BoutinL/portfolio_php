@@ -1,0 +1,11 @@
+{
+    "name": "portfolio/portfolio",
+    "type": "project",
+    "authors": [
+        {
+            "name": "NachtV",
+            "email": "boutin.loic@hotmail.com"
+        }
+    ],
+    "require": {}
+}

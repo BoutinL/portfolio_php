@@ -1,6 +1,9 @@
 <?php 
 
-require_once 'login.php';
+require 'config/connect.php';
+require 'config/configuration.php';
+require 'form/loginForm.php';
+
 $error = null;
 if (isset($_POST) && !empty($_POST)) {
   //_dump($_POST);
@@ -62,6 +65,10 @@ if (isset($_POST) && !empty($_POST)) {
             </div>
           <div class="modal-body">
             <form method="post">
+            <div class="mb-3">
+                <label for="exampleInputpseudo1" class="form-label">Pseudo</label>
+                <input type="pseudo" class="form-control" id="exampleInputpseudo1" name="pseudo" value="" required>
+              </div>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="nom@example.com" value="" required>

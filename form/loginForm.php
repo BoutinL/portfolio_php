@@ -1,4 +1,5 @@
 <?php
+
 $error = null;
 if (isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['password']) && !empty($_POST['password'])) {
     $sql = 'SELECT * FROM users WHERE email="'.$_POST['email'].'" LIMIT 1';

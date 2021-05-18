@@ -105,6 +105,10 @@ if (isset($_POST) AND !empty($_POST)) {
             </div>
           <div class="modal-body">
             <form method="post">
+            <div class="mb-3">
+                <label for="pseudo" class="form-label">Pseudo</label>
+                <input type="pseudo" class="form-control" id="pseudo" name="pseudo" required>
+              </div>
               <div class="mb-3">
                 <label for="InputEmail" class="form-label">Email</label>
                 <input type="email" class="form-control" id="InputEmail"  name="email" placeholder="nom@example.com" required>
