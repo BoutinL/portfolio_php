@@ -12,7 +12,7 @@ if (isset($_POST['email']) && !empty($_POST['email']) && isset($_POST['password'
                 $_SESSION['users'] = $users;
                 redirectToRoute('index.php');
             }
-        }
+        } 
         $error = 'Pseudo ou mot de passe incorrect !!';
         /* Libération du jeu de résultats */
         $result->close();
